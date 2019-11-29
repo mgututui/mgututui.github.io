@@ -1,0 +1,61 @@
+body {
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 0; /* Отступы на странице */
+	background: rgb(222,222,222);
+   }   
+   h1 {
+    font-size: 36px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: WHITE; /* Цвет текста */
+   }
+   h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+   }
+   #header { /* Верхний блок */
+    background: BLACK; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+   }
+   #image  {
+	   float: center;
+	   margin: 0;
+   }
+   .responsive {
+  width: 50%;
+  max-width: 700px;
+  height: auto;
+}
+   #sidebar { /* Левая колонка */
+    float: left; /* Обтекание справа */
+    border: 1px solid BLACK; /* Параметры рамки вокруг */
+    width: 20%; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 10px 20px 5px; /* Значения отступов */
+	background: BLACK;
+	color: WHITE;
+   }
+   #content { /* Правая колонка */
+    margin: 10px 5px 20px 25%; /* Значения отступов */
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid BLACK; /* Параметры рамки */
+	background: BLACK;
+	color: WHITE;
+   }
+   p2{
+	   font: Arial, Helvetica, sans-serif;
+	   font-size: 23px;
+   }
+   #footer { /* Нижний блок */
+    background: BLACK; /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+    color: #fff; /* Цвет текста */
+    clear: left; /* Отменяем действие float */
+   }
+a {text-decoration: none; }
+   a { color:WHITE } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:WHITE; }
+a:hover { text-decoration: none; color:WHITE; }
+a:focus { text-decoration: none; color:WHITE; }
+a:hover, a:active { text-decoration: none; color:WHITE }
